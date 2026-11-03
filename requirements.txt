@@ -1,0 +1,23 @@
+# ===================================================
+# SignBridge AI — Requirements (Python 3.11)
+# Install ke venv: .venv\Scripts\pip install -r requirements.txt
+# ===================================================
+
+# Core ML
+tensorflow==2.19.1
+numpy>=1.26.4,<2.0          # TF 2.19 belum support numpy 2.x
+keras>=3.5.0
+
+# Computer vision & pose estimation
+mediapipe==0.10.9
+opencv-python>=4.9,<5.0     # mediapipe 0.10.9 lebih stabil dengan cv2 4.x
+# jika cv2 5.x sudah terinstall, comment baris di atas dan uncomment ini:
+# opencv-python==5.0.0.93
+
+# Scikit-learn (label encoder)
+scikit-learn>=1.4
+
+# Plotting (dibutuhkan mediapipe)
+matplotlib>=3.8,<4.0
+
+# Pickle sudah built-in Python, tidak perlu install

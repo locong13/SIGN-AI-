@@ -1,0 +1,2 @@
+
+.venv\Scripts\python.exe realtime_inference_onnx.py
